@@ -6095,7 +6095,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: rgb(21, 150, 125) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10145,7 +10145,18 @@ h3 {
 .masthead .masthead-avatar {
   width: 15rem;
 }
-
+.tinted-image {
+  background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* your image */
+    url('/assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 160%;
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
