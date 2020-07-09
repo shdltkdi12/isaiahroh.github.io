@@ -10132,22 +10132,18 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(6rem + 104px);
   padding-bottom: 6rem;
-  .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
-    background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    ),
-    /* your image */
-    url('/assets/img/background.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 160%;
-  }
+  background-image: 
+  /* top, transparent red */
+  linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)
+  ),
+  /* your image */
+  url('/assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 160%;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
